@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+.btn__item-red {
+  padding: 13px 35px;
+  border-radius: 10px;
+  background-color: #f43d5b;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: 0 none;
+  outline: 0 none;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.btn__item-red:hover {
+  opacity: 0.7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1290px;
+  width: 100%;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Ubuntu";
+  background-color: #212934;
+  transition: all 0.6s ease;
+}
+
+header {
+  background-image: url("../img/bg/info.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  padding: 100px 0;
+}
+
+.navbar {
+  padding: 14px 0;
+}
+.navbar__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.navbar__link-active {
+  color: #f6554a;
+}
+.navbar__links nav ul {
+  display: flex;
+}
+.navbar__links nav ul li {
+  list-style: none;
+  margin: 0 12px;
+}
+.navbar__links nav ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fefefe;
+  transition: all 0.3s ease;
+}
+.navbar__links nav ul li a:hover {
+  color: #f6554a;
+}
+.navbar__social {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__social a {
+  margin-left: 16px;
+}
+.navbar__lang-item {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.navbar__lang-item-text {
+  margin-left: 6px;
+}
+.navbar__lang-item-text h1 {
+  font-size: 20px;
+}
+.navbar__lang-item-english {
+  display: none;
+}
+
+.info .container {
+  position: relative;
+}
+.info__intro {
+  margin-top: 80px;
+}
+.info__intro h1 {
+  text-align: right;
+  font-size: 70px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.info__intro p {
+  font-family: "Ubuntu";
+  font-size: 25px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 50px;
+}
+.info__presale {
+  display: flex;
+  text-align: right;
+  margin-top: 50px;
+  background-color: #1a2129;
+  width: 324px;
+  position: absolute;
+  right: 2%;
+}
+.info__presale p {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
